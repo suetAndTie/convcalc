@@ -7,7 +7,7 @@ output = ((input - size + 2 * pad) // stride) + 1
 #### Where
 ##### input = Input size
 ##### size = Kernel size
-##### stride = stride
+##### stride = stride of kernel movement
 ##### pad = 0-padding
 
 ### Use
