@@ -3,15 +3,15 @@
 
 
 ### Caculates convolution output size
-output = ((input - size + 2 * pad) // stride) + 1
+output = ((input - kernel + 2 * pad) // stride) + 1
 #### Where
 ##### input = Input size
-##### size = Kernel size
+##### kernel = Kernel size
 ##### stride = stride of kernel movement
 ##### pad = 0-padding
 
 ### Use
-python convcalc.py --input 128 --size 3 --stride 1 --pad 1
+python convcalc.py 128 3 --stride 1 --pad 1
 
 ### Output
 Output Size: 64
